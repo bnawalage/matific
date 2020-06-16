@@ -31,7 +31,7 @@ This project is created for the matific assignment
 
 	`cd <rest-api>`
 	`virtualenv venv --python=python3`
-	`pip install -r requrements.txt` -  to install required dependacies
+	`pip install -r requirements.txt` -  to install required dependacies
 	`python manage.py makemigrations`  - to generate db scripts
 	
 	`python manage.py migrate` - to create database tables
