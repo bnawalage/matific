@@ -20,6 +20,5 @@ from django.urls import path, include
 urlpatterns = [
     path('admin/', admin.site.urls),
     url(r'^api-auth/', include('rest_framework.urls', namespace='rest_framework')),
-    url(r'^api', include('demo.cbv_demo.urls')),
-    url(r'^fbv/', include('demo.fbv_demo.urls')),
+    url(r'^', include('demo.cbv_demo.urls')),
 ]

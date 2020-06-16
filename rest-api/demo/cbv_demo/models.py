@@ -75,8 +75,8 @@ class BaseModel(models.Model):
     modified_date = models.DateTimeField(auto_now=True)
     modified_by = models.ForeignKey(settings.AUTH_USER_MODEL,
                                     null=True, blank=True, on_delete=models.SET_NULL, related_name='+')
-    record_status = models.PositiveIntegerField()
-    version = models.BigIntegerField()
+    record_status = models.PositiveIntegerField(default=1)
+    version = models.BigIntegerField(default=1)
 
     class Meta:
         abstract = True

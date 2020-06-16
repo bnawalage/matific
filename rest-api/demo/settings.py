@@ -36,8 +36,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'rest_framework',
-    'demo.cbv_demo',
-    'demo.fbv_demo',
+    'demo.cbv_demo'
 ]
 
 
