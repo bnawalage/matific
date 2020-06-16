@@ -1,6 +1,6 @@
 # matific
 
-this project is created for the matific assignment 
+This project is created for the matific assignment 
 
 ## documents
 
@@ -9,12 +9,12 @@ this project is created for the matific assignment
 	
 ## rest-api
 
-	contains the python project files
+	Contains the python project files
 
 ## database 
 
-	this project is configured to run with mysqldb
-	to change the database please change thee below section in `settings.py`
+	This project is configured to run with mysqldb
+	to change the database please change the below section in `settings.py`
 	
 	`DATABASES = {
 		'default': {
